@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+.clear {
+    clear: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 2rem;
+}
+
+header {
+    background-color: rgba(25, 21, 63, 0.7);
+    height: 4rem;
+    width:100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.container {
+    font-size: 8px;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-left {
+    padding-top: 1rem;
+    float: left;
+    position: absolute;
+
+}
+
+.header-right {
+    float: right;
+    color: antiquewhite;
+    font-size: 1rem;
+}
+
+.header-icon {
+    height: 4rem;
+    padding: 0.5rem 1rem 0 1rem;
+    background-color: rgb(158, 164, 164);
+    color:black;
+    font-size: 2rem;
+    display: none;
+    float: right;
+}
+
+.li {
+    height: 4rem;
+    float: left;
+    display: block;
+    margin-right: 1.5rem;
+    padding: 1rem 1rem 0 1rem;
+    color: white;
+    background-color: rgb(156, 156, 167);
+}
+
+.top-view {
+    background-image: url(images/top-image.png);
+    /* height: 45rem; */
+    width: 100%;
+    background-size: cover;
+    padding: 8rem 0 3rem 0;
+    color: antiquewhite;
+}
+
+.opa {
+    opacity: 0.8;
+}
+
+.top-view h1 {
+    padding-top: 0.5rem;
+    font-size: 3rem;
+}
+
+.top-view p {
+    font-size: 1rem;
+}
+
+.btn-wrapper {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-register {
+    background-color: rgb(67, 186, 67);
+}
+.btn-facebook {
+    background-color: rgb(37, 97, 186);
+}
+
+.btn-twitter {
+    /* margin-left: 1rem; */
+    background-color: rgb(103, 188, 228);
+}
+
+
+/*高さの指定部分はclearを活用 */
+.lesson-view {
+
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    /* height: 35rem; */
+    background-color: rgb(233, 233, 233);
+}
+
+h2 {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    color: rgb(92, 87, 87);
+}
+
+.lesson {
+    width: 25%;
+    float: left;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+}
+
+.lesson-text{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 4rem ;
+}
+
+
+
+
+.bottom-view {
+    padding-top: 1rem;
+    border-bottom: 0.1rem solid rgba(108, 108, 108 ,0.2);
+    padding-bottom: 4rem;
+}
+
+.bottom-view p {
+    font-size: 1rem;
+}
+
+.btn-register2 {
+    display: block;
+    width: 30%;
+    margin: 3rem auto;
+    color: white;
+    background-color: rgb(49, 157, 91);
+    box-shadow: 2px 6px rgba(60, 60, 60, 0.7);
+    font-size: 1rem;
+}
+
+.fotter {
+    margin-top: 2rem;
+    text-align: left;
+}
+
